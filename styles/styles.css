@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:center;
+    padding: 70px;
+    gap:70px;
+}
+button{
+    background-color: rosybrown;
+    border:2px solid;
+    border-radius:5px;
+    padding:15px;
+}
+@media screen and (max-width: 576px ) {
+    .header{
+        flex-direction: column-reverse;
+        padding:5px;
+    }
+    
+}
+
